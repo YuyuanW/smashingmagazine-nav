@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.logo {
+  width: .1rem;
+  height: .1rem;
+  display: float;
+  border: 1px solid red;
+}
+
+.page {
+  position: relative;
+}
+
+.nav {
+  margin-top: -.1rem;
+  margin-left: .1rem;
+  position: absolute;
+}
+
+ul {
+  width: .5rem;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.nav > li {
+  flex: auto;
+}
+
+button {
+  margin-top: -.1rem;
+  margin-left: .6rem;
+  position: absolute;
+}
+
+input {
+  width: .2rem;
+  margin-top: -.1rem;
+  margin-left: .8rem;
+  position: absolute;
+}
+
+.moreSelect {
+  width: .1rem;
+  height: .1rem;
+  border: 1px solid red;
+  margin-top: -.1rem;
+  margin-left: .65rem;
+  display: none;
+  position: relative;
+}
+
+.moreSelect.active {
+  display: block;
+}
+
+.moreSelect > li :nth-child(0) {
+  border: 1px solid #00f;
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .page {
+    position: relative;
+  }
+
+  .logo {
+    width: .4rem;
+    height: .4rem;
+  }
+
+  button {
+    margin-top: -.2rem;
+    margin-left: .5rem;
+  }
+
+  input {
+    width: .5rem;
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+  }
+
+  .nav {
+    margin-top: -.3rem;
+    margin-left: .8rem;
+    display: none;
+    position: absolute;
+  }
+
+  .moreSelect.active {
+    display: none;
+  }
+
+  .nav.active {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

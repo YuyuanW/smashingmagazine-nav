@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 0.1rem;
+  height: 0.1rem;
+  border: 1px solid red;
+  display: float;
+  
+}
+.page{
+  position: relative;
+}
+
+.nav{
+    position: absolute;
+    margin-top: -0.1rem;
+    margin-left: 0.1rem;
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width:0.5rem;
+
+}
+.nav > li {
+    flex:auto;  
+}
+
+button{
+    position: absolute;
+    margin-top: -0.1rem;
+    margin-left: 0.6rem;
+}
+input{
+    position: absolute;
+    margin-top: -0.1rem;
+    margin-left: 0.8rem;
+    width: 0.2rem;
+}
+.moreSelect{
+    width:0.1rem;
+    height:0.1rem;
+    border:1px solid red;
+    position: relative;
+    margin-top:-0.1rem;
+    margin-left: 0.65rem;
+    display: none;
+}
+.moreSelect.active{
+    display: block;
+}
+.moreSelect > li :nth-child(0) {
+    position: absolute;
+    border:1px solid blue;
+}
+.moreSelect > li :nth-child(0) {
+    position: absolute;
+    border:1px solid blue;
+}
+
+@media(max-width:800px){
+    .page{
+        position: relative;
+    }
+    .logo{
+        width:0.4rem;
+        height: 0.4rem;
+    }
+    button{
+        
+        margin-left: 0.5rem;
+        margin-top: -0.2rem;
+    }
+    input{
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0rem;
+        width:0.5rem
+    }
+    .nav{
+        position: absolute;
+       margin-left: 0.8rem;
+       margin-top: -0.3rem;
+    }
+    .nav{
+        display: none;
+    }
+    .moreSelect.active{
+        display: none;
+    }
+    .nav.active{
+        display: block;
+    }
+}

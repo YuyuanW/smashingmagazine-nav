@@ -1,0 +1,1 @@
+{"mappings":"AAAA,GAAG,CAAC,OAAO,GAAC,IAAI;IACZ,GAAG,CAAC,SAAS,CAAC,MAAM,CAAC,QAAQ,CAAC;IAC9B,GAAG,CAAC,SAAS,CAAC,MAAM,CAAC,QAAQ,CAAC;CACjC","sources":["src/main.js"],"sourcesContent":["xxx.onclick=()=>{\r\n    yyy.classList.toggle('active')\r\n    zzz.classList.toggle('active')\r\n}"],"names":[],"version":3,"file":"index.de158e3a.js.map","sourceRoot":"/__parcel_source_root/"}
